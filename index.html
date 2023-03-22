@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Academy</title>
+  <link rel="shurtcut icon" href="img/logo 1.svg">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+
+<body>
+      <div class="section">
+        <div class="star star1"></div>
+        <div class="star star2"></div>
+        <div class="star star3"></div>
+        <div class="star star4"></div>
+        <div class="star star5"></div>
+        <div class="star star6"></div>
+        <div class="star star7"></div>
+        <div class="star star8"></div>
+      </div>
+  <header class="header">
+    <nav class="header__nav">
+      <div class="container nav__container">
+        <a href="" class="header__logo">
+          <img src="./img/logo-2.svg" alt="">
+        </a>
+        <div class="nav__menu">
+          <span class="nav__menu-line"></span>
+        </div>
+        <div class="nav__menu-list">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#courses" class="header__link">Курсы</a>
+            </li>
+            <li class="header__item">
+              <a href="#team" class="header__link">Наша Команда</a>
+            </li>
+            <li class="header__item">
+              <a href="#booking" class="header__link">О нас</a>
+            </li>
+            <div class="header__number">
+              <a href="tel:998996065558" class="header__tel">+998 (99)
+                606-55-58</a>
+    
+            </div>
+          </ul>
+       </div>
+      </div>
+    </nav>
+    <div class="header__content">
+      <div class="container content__container">
+        <div class="content__type">
+          <h1 class="header__title">Power academy - empower your  knowledge</h1>
+          <p class="header__txt">Профессионализм, огромный опыт и <br> ответственность - основы работы нашего
+            центра. </p>
+          <a href="#!" class="header__btn btn">Записаться на курс</a>
+        </div>
+        <div class="content__img">
+          <img src="./img/placeholder.png" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="courses" id="courses">
+      <h2 class="courses__title">Курсы</h2>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide  courses__slide">
+              <img src="./img/math.jpg" alt="">
+              <div class="slider__text">
+                <h3 class="slider__title">Mатематика</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide courses__slide ">
+              <img src="./img/Russian-Language.jpg" alt="">
+              <div class="slider__text">
+                <h3 class="slider__title">Русский язык</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+
+              </div>
+            </div>
+            <div class="swiper-slide courses__slide ">
+              <img src="./img/eng.jpg" alt="">
+              <div class="slider__text">
+
+                <h3 class="slider__title">Английский</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide courses__slide ">
+              <img src="./img/Russian-Language.jpg" alt="">
+              <div class="slider__text">
+
+                <h3 class="slider__title">Русский язык</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide courses__slide ">
+              <img src="./img/arab.jpg" alt="">
+              <div class="slider__text">
+
+                <h3 class="slider__title">Арабский</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide courses__slide ">
+              <img src="./img/mental.jpg" alt="">
+              <div class="slider__text">
+                <h3 class="slider__title">Ментальная</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+        </div>
+          <div class="swiper-button-next slider_btn"></div>
+          <div class="swiper-button-prev slider_btn"></div>
+   
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+             navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+              // el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              "@0.75": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              "@1.00": {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              "@1.50": {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            },
+          });
+        </script>
+      </div>
+    </section>
+    <section class="booking" id="booking">
+      <div class="container">
+        <div class="booking__content">
+          <div class="booking__img">
+            <img src="./img/placeholder.png" alt="">
+          </div>
+          <div class="booking__text">
+            <!-- <p class="booking__title-small">Надзаголовок</p> -->
+            <h2 class="booking__title">Простейший способ создания прототипов и дизайна лендингов</h2>
+            <p class="booking__txt">Создавайте прототипы и дизайн Landing Page просто копируя нужные элементы в свой
+              проект,отредактируйте текст и добавьте графику </p>
+            <a href="" class="booking__btn btn">Заказать расчёт цены</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <div class="advantages__content">
+          <div class="advantages__text">
+            <!-- <p class="advantages__title-small">Надзаголовок</p> -->
+            <h2 class="advantages__title">Заголовок второго уровня, для описания продающих выгод</h2>
+            <p class="advantages__txt">Первый короткий тезис, который здесь будет,опишите подробности того, что здесь
+              будет</p>
+            <p class="advantages__txt">Первый короткий тезис, который здесь будет,опишите подробности того, что здесь
+              будет</p>
+            <p class="advantages__txt">Первый короткий тезис, который здесь будет,опишите подробности того, что здесь
+              будет</p>
+          </div>
+          <div class="adavntages__img">
+            <img src="./img/placeholder.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <h2 class="team__title">Команда</h2>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide  team__slide">
+              <img src="./img/photo.png" alt="">
+              <div class="slider__text">
+                <h3 class="slider__title">Mатематика</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide team__slide ">
+              <img src="./img/photo.png" alt="">
+              <div class="slider__text">
+                <h3 class="slider__title">Русский язык</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+
+              </div>
+            </div>
+            <div class="swiper-slide team__slide ">
+              <img src="./img/photo.png" alt="">
+              <div class="slider__text">
+
+                <h3 class="slider__title">Английский</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide team__slide ">
+              <img src="./img/photo.png" alt="">
+              <div class="slider__text">
+
+                <h3 class="slider__title">Русский язык</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide team__slide ">
+              <img src="./img/photo.png" alt="">
+              <div class="slider__text">
+
+                <h3 class="slider__title">Mатематика</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="swiper-slide team__slide ">
+              <img src="./img/photo.png" alt="">
+              <div class="slider__text">
+                <h3 class="slider__title">Mатематика</h3>
+                <a href="#!" class="slider__btn btn">Подробнее</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="slider__btns">
+            <div class="slider__btn-prev"><img src="./img/prev.svg" width="23px" height="45px" alt=""></div>
+            <div class="slider__btn-next"><img src="./img/next.svg" width="23px" height="45px" alt=""></div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next slider_btn"></div>
+        <div class="swiper-button-prev slider_btn"></div> -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+             navigation: {
+              nextEl: ".slider__btn-next",
+              prevEl: ".slider__btn-prev",
+            },
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+              // el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              "@0.00": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+               "@0.35": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              "@0.55": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+               "@0.75": {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+                 "@0.95": {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              "@1.00": {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              "@1.50": {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            },
+          });
+        </script>
+      </div>
+    </section>
+    <section class="examples">
+
+      <h2 class="examples__title">
+        Смотрите примеры выполненных работ
+      </h2>
+      <p class="examples__txt">Фото пректов из нашего instagram</p>
+      <div class="container">
+        <div class="examples__content">
+          <div class="examples__row">
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+          </div>
+          <div class="examples__row">
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+          </div>
+          <div class="examples__row">
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+            <div class="row-1__img">
+              <img src="./img/photo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="container">
+        <div class="form__content">
+          <div class="form__text">
+            <h2 class="form__title">Оставьте свои данные</h2>
+            <p class="form__txt">Раскройте подробности призыва к действию, для ясности</p>
+          </div>
+          <form action="telegram.php" class="header__form" method="POST">
+            <div class="header__form-input">
+              <input type="text" class="form-control date name__input form__input" name="user_name" placeholder="Name">
+            </div>
+            <div class="header__form-input">
+              <input type="text" class="form-control tel tel__input form__input " name="user_phone" placeholder="Phone">
+            </div>
+            <div class="btn__input">
+              <button class="btn btn-primary">Отправить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer__content">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="#!" class="footer__link">Согласие на обработку данных</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!" class="footer__link">Служба поддержки</a>
+        </li>
+        <li class="footer__item">
+          <a href="#!" class="footer__link">Политика конфиденциальности</a>
+        </li>
+      </ul>
+      <p class="footer__txt">
+        © nazvaniesaita.ru, 2054 | SIROJ CORP или ИП ОГРН 0000000000000
+      </p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>

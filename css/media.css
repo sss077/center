@@ -1,0 +1,534 @@
+@media (max-width: 1604px) {}
+
+@media (max-width: 1440px) {
+    .examples__row img {
+        width: 473px;
+        height: 473px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .examples__row img {
+        width: 433px;
+        height: 433px;
+    }
+}
+
+@media (max-width: 1290px) {
+    .examples__row img {
+        width: 410px;
+        height: 410px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .examples__row img {
+        width: 370px;
+        height: 370px;
+    }
+
+    .advantages__txt {
+        margin-left: 15px
+    }
+}
+
+@media (max-width: 1100px) {
+    .advantages__title {
+        font-size: 32px;
+        width: 472px;
+    }
+
+    .examples__row img {
+        width: 360px;
+        height: 360px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .booking__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__title {
+        font-size: 41px;
+    }
+
+    .header__txt {
+        font-size: 19px;
+    }
+
+    .content__img {
+        width: 440px;
+    }
+
+    .booking__title {
+        font-size: 33px;
+    }
+
+    .booking__txt {
+        font-size: 19px;
+    }
+
+    .advantages__title {
+        font-size: 33px;
+    }
+
+    .adavntages__img img {
+        margin-left: -65px;
+        width: 440px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__title {
+        font-size: 36px;
+    }
+
+    .examples__row img {
+        width: 355px;
+        height: 355px;
+    }
+
+    .form__title {
+        font-size: 34px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .header__title {
+        font-size: 34px;
+    }
+
+    .header__txt {
+        font-size: 17px;
+    }
+
+    .header__btn {
+        padding: 20px 30px;
+        width: 245px;
+    }
+
+    .content__img img {
+        width: 430px;
+    }
+
+    .booking__title {
+        font-size: 25px;
+    }
+
+    .booking__txt {
+        font-size: 15px;
+    }
+
+    .booking__img img {
+        width: 430px;
+    }
+
+    .booking__btn {
+        padding: 15px 25px;
+        width: 260px;
+    }
+
+    .advantages__title {
+        width: 370px;
+        font-size: 25px;
+    }
+
+    .advantages__txt {
+        font-size: 15px;
+    }
+
+    .advantages__txt::before {
+        width: 8px;
+        height: 8px;
+        top: 4px;
+        left: -10px;
+    }
+
+    .adavntages__img img {
+        width: 420px;
+    }
+
+    .examples__row img {
+        width: 265px;
+        height: 265px;
+    }
+
+    .form__input {
+        width: 260px;
+        height: 62px;
+    }
+
+    .btn-primary {
+        padding: 20px 64px;
+    }
+
+    .header__link {
+        font-size: 12px;
+    }
+
+    .header__tel {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__title {
+        width: 330px;
+        font-size: 22px;
+    }
+
+    /* .header__list {
+        display: none;
+    } */
+    .nav__menu:hover~.nav__menu-list {
+        left: 47%;
+    }
+
+    .nav__menu-list {
+        max-width: 500px;
+        min-height: 100vh;
+        background: #434343;
+        position: fixed;
+        padding-top: 10px;
+        top: 0;
+        left: 100%;
+        z-index: 888;
+        width: 100%;
+        transition: .4s
+            /* transform: translateX(100px); */
+    }
+
+    .header__link {
+        color: #fff;
+    }
+
+    .header__tel {
+        color: #fff;
+    }
+
+    .header__tel img {
+        display: none;
+    }
+
+    .header__list {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 165px;
+        flex-grow: 1;
+        /* width: max-content; */
+    }
+
+    .nav__menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__menu-line {
+        width: 100%;
+        height: 2px;
+        background: #000;
+        position: relative;
+    }
+
+
+    .nav__menu-line::before,
+    .nav__menu-line::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+    .nav__menu-line::before {
+        top: -10px;
+    }
+
+    .nav__menu-line::after {
+        top: 10px;
+    }
+
+    .booking__title-small {
+        display: none;
+    }
+
+    .booking__text {
+        gap: 35px;
+    }
+
+    .booking__title {
+        font-size: 21px;
+    }
+
+    .booking__btn {
+        font-size: 16px;
+        padding: 15px 25px;
+        width: 231px;
+    }
+
+    .booking__content {
+        align-items: center;
+        gap: 50px;
+    }
+
+    .content__img img {
+        width: 385px;
+    }
+
+    .advantages__title {
+        width: 275px;
+        font-size: 18px;
+    }
+
+    .advantages__txt {
+        font-size: 14px;
+    }
+
+    .examples__row img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .form__input {
+        width: 215px;
+    }
+
+    .footer__link {
+        font-size: 13px;
+    }
+
+    .footer__link {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 734px) {
+    .header__form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form__input {
+        width: 310px;
+    }
+
+    .btn-primary {
+        padding: 20px 135px;
+    }
+
+    .examples__title {
+        font-size: 27px;
+    }
+
+    .examples__txt {
+        font-size: 21px;
+    }
+
+    .form__title {
+        font-size: 27px;
+    }
+
+    .form__txt {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 684px) {
+    .content__img img {
+        width: 330px;
+    }
+
+    .header__txt {
+        font-size: 16px;
+    }
+
+    .header__btn {
+        padding: 16px 18px;
+        width: 220px;
+    }
+
+    .booking__img img {
+        width: 350px;
+    }
+
+    .booking__title {
+        font-size: 19px;
+    }
+
+    .booking__txt {
+        font-size: 14px;
+    }
+    .booking__btn{
+        font-size: 13px;
+        padding: 12px 13px;
+        width: 173px;
+    }
+    .adavntages__img img{
+        width: 350px;
+    }
+    /* .team__slide img{
+        width: 400px;
+    } */
+    .examples__row img{
+        width: 215px;
+        height: 215px;
+    }
+    .slider__btn{
+        min-width: 160px;
+        padding: 15px 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__title{
+        font-size: 20px;
+        width: 280px;
+    }
+    .header__txt{
+        font-size: 12px;
+    }
+    .header__btn{
+        font-size: 11px;
+        width: max-content;
+        
+    }
+    .content__img img{
+      width: 280px;
+    }
+    .booking__img img{
+        width: 280px;
+    }
+    .booking__title{
+     font-size: 16px;
+    }
+    .booking__txt{
+        font-size: 12px;
+    }
+            
+    .booking__btn{
+        width: max-content;
+        font-size: 12px;
+    }
+    .advantages__title{
+        width: 271px;
+        font-size: 16px;
+    }
+    .adavntages__txt{
+   font-size: 12px;
+    }
+    .adavntages__img img{
+        width: 275px;
+    }
+    .advantages__content{
+        gap: 80px;
+    }
+    .examples__row img{
+        width: 180px;
+        height: 180px;
+    }
+    .footer__link{
+        font-size: 10px;
+    }
+    .footer__txt{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__title{
+        font-size: 14px;
+        width: 221px;
+    }
+    .header__txt{
+        font-size: 10px;
+        width: 189px;
+    }
+    .header__btn{
+        font-size: 10px;
+        padding: 10px;
+        font-size: 10px;
+    }
+        .nav__menu:hover~.nav__menu-list{
+            left: 67%;
+        }
+        .header__list{
+            align-items: unset;
+            padding-left:55px ;
+        }
+    .content__img img{
+        width: 245px;
+    }
+    .booking__content{
+        gap: 44px;
+    }
+    .booking__img img{
+        width: 260px;
+    }
+    .booking__title{
+        font-size: 14px;
+    }
+    .booking__txt{
+        font-size: 10px;
+    }
+    .booking__btn{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .advantages__title{
+        font-size: 13px;
+        width: 221px;
+    }
+    .advantages__txt{
+        font-size: 10px;
+    }
+    .advantages__content{
+        gap: 70px;
+    }
+    .adavntages__img img{
+        width: 240px;
+        height: 240px;
+    }
+    .team__slide img{
+    width: 365px;
+    }
+    .examples__title{
+        font-size: 18px;
+    }
+    .examples__txt{
+        font-size: 16px;
+    }
+    .examples__row img{
+        width: 150px;
+        height: 150px;
+    }
+    .form__title{
+        font-size: 20px;
+    }
+    .form__txt{
+        font-size: 12px;
+    }
+    .footer__link{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 460px) {
+    
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 412px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
